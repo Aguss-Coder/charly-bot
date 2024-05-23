@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "build": "tsc",
+    "start": "node --env-file=.env dist/main.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "bufferutil": "^4.0.8",
+    "discord.js": "^14.15.2",
+    "utf-8-validate": "^6.0.4",
+    "zlib-sync": "^0.1.9"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  }
+}
