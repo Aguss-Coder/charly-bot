@@ -6,6 +6,8 @@
     "build": "node build.mjs",
     "start": "node --env-file=.env dist/main.js",
     "prod": "npm run build && npm run start",
+    "refresh": "REFRESH_COMMANDS=true npm run start",
+    "clean": "rm -r dist/",
     "lint": "eslint"
   },
   "dependencies": {
